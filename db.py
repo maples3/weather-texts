@@ -77,7 +77,7 @@ class dbConnection:
 		# Convert the list of tuples to a basic list
 		recipients = list()
 		for row in results:
-			recipients.append(results[0])
+			recipients.append(row[0])
 
 		return recipients
 
